@@ -1,0 +1,25 @@
+Utility\SolutionBundle\Entity\Menu:
+    type: entity
+    table: menu
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            generator:
+                strategy: IDENTITY
+        name:
+            type: string
+            length: 200
+            fixed: false
+            nullable: false
+        content:
+            type: text
+            nullable: false
+        link:
+            type: string
+            length: 500
+            fixed: false
+            nullable: false
+    lifecycleCallbacks: {  }

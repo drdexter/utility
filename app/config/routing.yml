@@ -1,0 +1,4 @@
+utility_solution:
+    resource: "@UtilitySolutionBundle/Resources/config/routing.yml"
+    prefix:   /
+

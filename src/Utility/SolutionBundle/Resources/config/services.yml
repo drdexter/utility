@@ -1,0 +1,7 @@
+parameters:
+#    utility_solution.example.class: Utility\SolutionBundle\Example
+
+services:
+#    utility_solution.example:
+#        class: %utility_solution.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

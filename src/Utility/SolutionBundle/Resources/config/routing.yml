@@ -1,0 +1,3 @@
+utility_solution_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: UtilitySolutionBundle:Default:index }
